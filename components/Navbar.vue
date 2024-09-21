@@ -33,10 +33,8 @@
   </header>
 </template>
 
-<script>
-export default {
-  name: 'Navbar'
-}
+<script setup lang="ts">
+
 </script>
 
 <style lang="postcss" scoped>
@@ -45,11 +43,7 @@ export default {
 }
 
 .toolbar .toolbar--container {
-  @apply container flex flex-col flex-wrap items-center justify-between py-5 mx-auto max-w-7xl;
-
-  @screen md {
-    @apply flex-row;
-  }
+  @apply container flex flex-col flex-wrap items-center justify-between py-5 mx-auto max-w-7xl md:flex-row;
 }
 
 .toolbar .text--logo {

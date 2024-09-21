@@ -20,10 +20,8 @@
   </section>
 </template>
 
-<script>
-export default {
-  name: 'CalAction'
-}
+<script setup lang="ts">
+
 </script>
 
 <style lang="postcss" scoped>
@@ -36,35 +34,17 @@ export default {
 }
 
 .call--action .call--container {
-  @apply max-w-7xl mx-auto py-12 px-4;
-
-  @screen sm {
-    @apply px-6;
-  }
-
-  @screen lg {
-    @apply flex items-center justify-between py-10;
-  }
+  @apply max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:flex lg:items-center lg:justify-between lg:py-10;
 }
 
 .call--action .call--heading {
-  @apply text-3xl font-bold tracking-tight text-white;
-
-  @screen sm {
-    @apply text-4xl;
-  }
+  @apply text-3xl font-bold tracking-tight text-white sm:text-4xl;
 }
 
 .call--action .call--subheading {
-  @apply max-w-md mx-auto text-base;
-
-  @screen sm {
-    @apply text-lg;
-  }
-
-  @screen md {
-    @apply text-xl max-w-3xl;
-  }
+  @apply max-w-md mx-auto text-base sm:text-lg md:text-xl md:max-w-3xl;
 }
 </style>
+
+
 

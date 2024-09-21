@@ -1,20 +1,75 @@
-<p align="center">
-    <img src="https://github.com/ronmrcdo/nuxt-tailwind-landing/blob/main/starter-logo.png?raw=true">
-</p>
+# Nuxt 3 Minimal Starter
 
-## 👋 Starter Landing Page
-Starter is a open source landing page built using Nuxt and Tailwindcss.
- <img src="https://github.com/ronmrcdo/nuxt-tailwind-landing/blob/main/fullsite.png?raw=true">
+Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
-## 🔨 Installation
-Starter target a static generated site. To know more about it you can go to [Nuxt Official Documentation](https://nuxtjs.org/)
+## Setup
 
- 1. Clone the repo `git clone https://github.com/ronmrcdo/nuxt-tailwind-landing.git` or you can manually download it on the repository.
- 2. Navigate to the `nuxt-tailwind-landing` directory.
- 3. Do a `npm install` to install the dependencies.
- 4. To run on your local `npm run dev`
- 5. For deployment, you can generate by using `npm run generate` then just copy the files inside `dist` folder and paste it to web servers.
+Make sure to install the dependencies:
 
-## 📃 License
+```bash
+# npm
+npm install
 
-The Starter Landing Page is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+# pnpm
+pnpm install
+
+# yarn
+yarn install
+
+# bun
+bun install
+```
+
+## Development Server
+
+Start the development server on `http://localhost:3000`:
+
+```bash
+# npm
+npm run dev
+
+# pnpm
+pnpm run dev
+
+# yarn
+yarn dev
+
+# bun
+bun run dev
+```
+
+## Production
+
+Build the application for production:
+
+```bash
+# npm
+npm run build
+
+# pnpm
+pnpm run build
+
+# yarn
+yarn build
+
+# bun
+bun run build
+```
+
+Locally preview production build:
+
+```bash
+# npm
+npm run preview
+
+# pnpm
+pnpm run preview
+
+# yarn
+yarn preview
+
+# bun
+bun run preview
+```
+
+Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.

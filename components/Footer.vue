@@ -62,10 +62,8 @@
   </footer>
 </template>
 
-<script>
-export default {
-  name: 'Footer'
-}
+<script setup lang="ts">
+
 </script>
 
 <style lang="postcss" scoped>
@@ -74,11 +72,7 @@ export default {
 }
 
 .footer .footer--container {
-  @apply container mx-auto max-w-7xl;
-
-  @screen md {
-    @apply flex-row;
-  }
+  @apply container mx-auto max-w-7xl md:flex-row;
 }
 
 .footer .text--logo {
